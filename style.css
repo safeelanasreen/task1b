@@ -7,14 +7,22 @@ header{
 }
 *{
     box-sizing: border-box;
+    margin:0;
 }
+.container{
+    
+        width:90%;
+        height:800px;
+        margin:60px;
+    }
+    
 nav{
     width:100%;
     background-color: rgb(77, 71, 71);
     
     /* margin:0; */
 }
-span1{
+#span{
     color:black;
 }
 a{
@@ -55,11 +63,13 @@ a{
  #border{
      border-bottom: 1px solid rgb(85, 84, 84);
      border-width: 70%;
+     margin-top: 20p;
                    
  }
  .links{
      color: rgb(151, 74, 19);
      padding:10px;
+     
     
  }
 #footer{
@@ -84,7 +94,9 @@ h3{
     
 }
 .first{
-    display: inline-block;
+    position:relative;
+    bottom:150px;
+    left:180px;
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -96,7 +108,7 @@ span{
     color: chocolate;
 }
 
-p1{
+#para{
     color: orangered;
 }
 
@@ -105,4 +117,11 @@ p1{
 
 }
 
+a{
+    text-decoration: none;
+}
+.side{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
